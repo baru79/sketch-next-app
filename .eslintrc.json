@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["next", "airbnb"],
+  "rules": {
+    "indent": ["error", 2],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": 0,
+    "operator-linebreak": 0,
+    "implicit-arrow-linebreak": 0,
+    "react/function-component-definition": 0,
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": { "multiline": true },
+        "ObjectPattern": { "multiline": true },
+        "ImportDeclaration": "never",
+        "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+      }
+    ]
+  }
+}
